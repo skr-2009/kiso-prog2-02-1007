@@ -4,14 +4,12 @@
 int main(void)
 {
     int score = 75;
-    int point;
 
     if (score >= 60) {
-        point = 10;
+        printf("合格\n");
     } else {
-        point = 0;
+        printf("不合格\n");
     }
 
-    printf("%d\n", point);
     return 0;
 }
